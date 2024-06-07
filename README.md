@@ -90,34 +90,34 @@ This project is the backend API for an e-commerce web application. It provides v
 
 ## Project Structure
     ```bash
-          src/
-   ├── controllers/
-   │   ├── authController.js
-   │   ├── orderController.js
-   │   ├── productController.js
-   │   ├── userController.js
-   │   └── categoryController.js
-   ├── models/
-   │   ├── orderModel.js
-   │   ├── productModel.js
-   │   ├── userModel.js
-   │   └── categoryModel.js
-   ├── routes/
-   │   ├── authRoutes.js
-   │   ├── orderRoutes.js
-   │   ├── productRoutes.js
-   │   ├── userRoutes.js
-   │   └── categoryRoutes.js
-   ├── middleware/
-   │   ├── authMiddleware.js
-   │   └── errorMiddleware.js
-   ├── utils/
-   │   ├── sendEmail.js
-   │   └── generateToken.js
-   ├── app.js
-   ├── server.js
-   └── config/
-       └── db.js
+      src/
+      ├── controllers/
+      │   ├── authController.js
+      │   ├── orderController.js
+      │   ├── productController.js
+      │   ├── userController.js
+      │   └── categoryController.js
+      ├── models/
+      │   ├── orderModel.js
+      │   ├── productModel.js
+      │   ├── userModel.js
+      │   └── categoryModel.js
+      ├── routes/
+      │   ├── authRoutes.js
+      │   ├── orderRoutes.js
+      │   ├── productRoutes.js
+      │   ├── userRoutes.js
+      │   └── categoryRoutes.js
+      ├── middleware/
+      │   ├── authMiddleware.js
+      │   └── errorMiddleware.js
+      ├── utils/
+      │   ├── sendEmail.js
+      │   └── generateToken.js
+      ├── app.js
+      ├── server.js
+      └── config/
+          └── db.js
 ## Usage
 Authentication: Use JWT for secure authentication. Pass the token in the Authorization header as Bearer <token>.
 Admin Access: Admin routes are protected and require the user to have admin privileges.
