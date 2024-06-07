@@ -89,7 +89,7 @@ This project is the backend API for an e-commerce web application. It provides v
 - **PUT** /api/admin/users/: Promote or demote a user (admin).
 
 ## Project Structure
-
+```bash
    src/
 ├── controllers/
 │   ├── authController.js
